@@ -1,0 +1,105 @@
+@charset "UTF-8";
+html{
+    font-size: 62.5%;
+}
+body{
+	font-size: 1.6rem;
+	/*(1rem = 10pxとなります。) */
+	/* font-size: 16px; */
+	font-family: serif;
+}
+*{
+	margin: 0 ;
+}
+main{
+	width: 42%;
+	display: block;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background: #006171;
+	
+}
+h1{
+	color: #FFFFFF;
+}
+
+h2{
+	width: 100%;
+	color: #FFFFFF;
+	height: auto;
+	background: #006171;
+	
+}
+h3{
+	color: #FFFFFF;
+	height: auto;
+	background: #006171;
+}
+.secton-01, .secton-02, .section-03, .secton-04{
+	border: 1px solid #006171;
+	margin: 10px 20px 20px;
+	display: block;
+}
+.wrapper{
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px 25px;
+}
+
+#wrapper-0{
+	gap: 3px;
+}
+#wrapper-1{
+	gap: 30px;
+}
+.div-01{
+	width: 150px;
+	border: 1px solid #006171;
+}
+.div-02{
+	width: 200px;
+	border: 1px solid #006171;
+}
+.p-1{
+	margin: 20px 23px;
+}
+
+
+
+.aside{
+	width: 180px;
+	display: flex;
+}
+.secton-05,.secton-06{
+	width: 180px;
+	border: 1px solid #006171;
+}
+.topic{
+	width: 150px;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 600px;
+	background: #006171;
+	
+}
+.secton-10{
+}
+#secton-07{
+	width: 300px;
+}
+#secton-08{
+	width: 200px;
+}
+#secton-09{
+	width: 450px;
+}
+
